@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AWSSDK</id>
+    <version>2.3.55.2</version>
+    <title>AWS SDK for .NET (Previous Version 2)</title>
+    <authors>Amazon Web Services</authors>
+    <owners>Amazon Web Services</owners>
+    <licenseUrl>http://aws.amazon.com/apache2.0/</licenseUrl>
+    <projectUrl>http://aws.amazon.com/sdkfornet/</projectUrl>
+    <iconUrl>http://media.amazonwebservices.com/aws_singlebox_01.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the previous version 2 generation of the AWS SDK for .NET. The new version 3 of the AWS SDK for .NET uses separate packages for each service. For example Amazon S3 is in the AWSSDK.S3 package, Amazon SQS is in AWSSDK.SQS and Amazon DynamnoDB is in AWSSDK.DynamoDBv2.</description>
+    <language>en-US</language>
+    <tags>AWS Amazon cloud</tags>
+    <dependencies>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="Microsoft.Net.Http" version="2.1.10" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
